@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 #landing {
@@ -16,4 +17,63 @@ div.full-page {
     height: 100vh;
     overflow: hidden;
 
+}
+#landing-page {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.panels {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p span {
+    display: block;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10;
+    overflow: hidden;
+    z-index: 1; 
+}
+
+nav {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
